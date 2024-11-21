@@ -1,6 +1,6 @@
 import TelegramBot from "node-telegram-bot-api";
 
-const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN);
+const bot = new TelegramBot("7002899836:AAGHb0T0q08SJm9r7v0XsVvQExQ0UTOw9So");
 const TelegramBot = require("node-telegram-bot-api");
 
 bot.setWebHook("https://next-telegram-nine.vercel.app/api/telegram");
