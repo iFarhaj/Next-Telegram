@@ -1,5 +1,5 @@
 const TelegramBot = require("node-telegram-bot-api");
 
 const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN);
-bot.setWebHook("https://your-vercel-domain.vercel.app/api/telegram");
+bot.setWebHook("https://next-telegram-nine.vercel.app/api/telegram");
 console.log("Webhook set!");
